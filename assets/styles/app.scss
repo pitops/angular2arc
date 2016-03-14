@@ -1,0 +1,78 @@
+.github-fork-ribbon:before, .github-fork-ribbon:after {
+  height: 2.3em;
+}
+
+.full-height {
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.jumbotron {
+  margin: 0;
+  padding-top:0;
+}
+
+.search-wrapper {
+  padding:0 3rem;
+}
+.search-input {
+  border: 1px solid #8a6d3b;
+  height: 50px;
+  font-size: 18px;
+  margin-top: 3rem;
+  font-weight: 300;
+}
+
+.arc-list {
+  padding: 2rem;
+
+  .arc-item {
+    list-style-type: none;
+    font-weight: 300;
+    padding: 1rem 1rem 1rem 4rem;
+    background: white;
+    margin: 1rem;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.2);
+
+    h3 {
+     margin: 1rem 0;
+     padding: 0;
+     display: inline-block;
+    }
+    blockquote {
+      border-left: 5px solid #B75656;
+    }
+    a.btn.btn-success.pull-right {
+      margin-top: 1rem;
+      span {
+        padding: 2rem;
+      }
+    }
+
+    span.date {
+      vertical-align: baseline;
+      padding: 0;
+      display:block;
+      width: 30%;
+    }
+
+    span.tag {
+      font-size: 1.2rem;
+      padding: 0.2rem 1.5rem;
+      border-radius: 5px;
+      vertical-align: middle;
+    }
+
+    .resource {
+      background-color: #0E83EA;
+      border: 1px solid #0E83EA;
+      color: white;
+    }
+
+    .tutorial {
+      background-color: orange;
+      color: #3A3A3A;
+      border: 1px solid orange;
+    }
+  }
+}
