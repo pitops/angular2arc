@@ -26,6 +26,8 @@ npm run serve # load lite-server
 gulp # for Gulp watcher
 ```
 
+NOTE: You need to create a firebase app and replace with your URL in **firebase.service.ts** file
+
 ### Disclaimer
 
 This app was originally made for an Angular 2 video course i am preparing.
