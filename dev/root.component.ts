@@ -8,7 +8,7 @@ import { RouteConfig } from "angular2/router";
   selector: "ng2-app",
   template: `
     <section class="jumbotron full-height">
-      <a class="github-fork-ribbon" href="http://url.to-your.repo" title="Fork me on GitHub">Fork me on GitHub</a>
+      <a class="github-fork-ribbon" href="https://github.com/pitops/angular2arc" title="Fork me on GitHub">Fork me on GitHub</a>
       <top-navigation></top-navigation>
       <div class="container">
         <router-outlet></router-outlet>

@@ -2,7 +2,7 @@
 
 import { bootstrap } from "angular2/platform/browser";
 import { RootComponent } from "./root.component";
-import { ROUTER_PROVIDERS, ROUTER_DIRECTIVES} from "angular2/router";
+import { ROUTER_PROVIDERS, ROUTER_DIRECTIVES, LocationStrategy, HashLocationStrategy} from "angular2/router";
 import { PLATFORM_DIRECTIVES, provide, enableProdMode } from "angular2/core";
 import { HTTP_PROVIDERS } from "angular2/http";
 import { FirebaseService } from "./shared/firebase.service";
@@ -17,6 +17,9 @@ bootstrap(RootComponent, [
   FirebaseService,
   ROUTER_PROVIDERS,
   HTTP_PROVIDERS,
-  provide(PLATFORM_DIRECTIVES, {useValue: [ROUTER_DIRECTIVES], multi: true})
+  provide(
+    PLATFORM_DIRECTIVES, {useValue: [ROUTER_DIRECTIVES], multi: true}),
+  provide(
+    LocationStrategy, {useClass: HashLocationStrategy})
 ])
   .catch(err => console.error(err));
