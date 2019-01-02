@@ -1,5 +1,7 @@
 ## Description
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pitops/angular2arc.svg)](https://greenkeeper.io/)
+
 Angular 2 Arc is an app demonstrating read/write capabilities using the **Firebase REST API** with the purpose of adding new resource or tutorials made/written for Angular 2.
 
 This package is **Angular 2 Beta 9** compatible.
